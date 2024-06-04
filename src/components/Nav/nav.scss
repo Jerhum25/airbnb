@@ -55,12 +55,14 @@
       right: 0;
       background-color: #fff;
       box-shadow: 0 0 5px lightgrey;
-      padding: 15px;
+      padding: 15px 0;
       border-radius: 10px;
       z-index: 10;
+      width: max-content;
       a{
           font-size: 14px;
           font-weight: 300;
+          padding: 0 15px;
           &:first-child{
             font-weight: 500;
           }
@@ -76,7 +78,7 @@
   .navContainer {
     width: 100%;
     .navCenter,
-    .navRight a:nth-child(1) {
+    .navRight>a:nth-child(1) {
       display: none;
     }
   }

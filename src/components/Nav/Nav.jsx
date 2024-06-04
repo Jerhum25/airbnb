@@ -2,10 +2,9 @@ import React from "react";
 import "./nav.scss";
 
 function Nav(props) {
-
-  function modal(e){
-    const modal = document.querySelector(".userModal")
-    modal.classList.toggle("active")
+  function modal(e) {
+    const modal = document.querySelector(".userModal");
+    modal.classList.toggle("active");
   }
 
   return (
@@ -28,7 +27,7 @@ function Nav(props) {
           <i className="fa-solid fa-bars"></i>
           <i className="fa-solid fa-circle-user"></i>
         </div>
-        <div className="userModal" >
+        <div className="userModal">
           <a href="a">Inscription</a>
           <a href="a">Connexion</a>
           <hr />

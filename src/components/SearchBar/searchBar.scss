@@ -83,5 +83,9 @@
 @media screen and (max-width:768px){
   .searchBarContainer{
     width: 95%;
+    overflow-x: auto;
+    &::-webkit-scrollbar{
+      display: none;
+    };
   }
 }

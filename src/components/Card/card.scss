@@ -29,15 +29,36 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    transition: .2s ease-in-out;
+    // transition: .2s ease-in-out;
     i{
         font-size: 23px;
         color: #fff;
-        // background: rgba(0,0,0,0.3);
+      }
+      &:hover{
+        // transform: scale(1.1);
+        animation: heart ease-in 1.2s infinite;
     }
-    &:hover{
-        transform: scale(1.1);
+  }
+  @keyframes heart {
+    0%{
+      scale: 1;
     }
+    25%{
+      scale: 1.05;
+    }
+    50%{
+      scale: 1.1;
+    }
+    60%{
+      scale: 1.05;
+    }
+    80%{
+      scale: 1.1;
+    }
+    100%{
+      scale: 1;
+    }
+    
   }
 }
 
