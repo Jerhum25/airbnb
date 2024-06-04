@@ -5,7 +5,7 @@ function FooterCopyright(props) {
   return (
     <div className="footerCopyrightContainer">
       <div className="infosLinks">
-        <p>&copy; 2024 Airbnb, Inc</p>
+        <p>&copy; 2024 JH Dev</p>
         <a href="a">Confidentialité</a>
         <a href="a">Conditions générales</a>
         <a href="a">Plan du site</a>
