@@ -1,0 +1,28 @@
+.footerMenuContainer {
+  display: flex;
+  width: 60%;
+  margin: 30px auto;
+  justify-content: space-between;
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  ul {
+    li {
+      line-height: 35px;
+      a {
+        color: #000;
+        font-weight: 300;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .footerMenuContainer{
+        width: 95%;
+        flex-direction: column;
+        gap: 25px;
+    }
+}

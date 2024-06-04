@@ -1,0 +1,56 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #fc375c;
+        i{
+            font-size: 35px;
+        }
+        h1{
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: -1px;
+        }
+    }
+    .navCenter{
+        display: flex;
+        gap: 25px;
+        a{
+            color: #000;
+            font-weight: 500;
+        }
+    }
+    .navRight{
+        display: flex;
+        align-items: center;gap: 20px;
+        a{
+            color: #000;
+            font-weight: 500;
+        }
+        a.user{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border: 1px solid lightgrey;
+            padding: 8px 8px 8px 15px;
+            border-radius: 40px;
+            color: grey;
+            .fa-circle-user{
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navContainer{
+        width: 100%;
+        .navCenter, .navRight a:nth-child(1){
+            display: none;
+        }
+    }
+}

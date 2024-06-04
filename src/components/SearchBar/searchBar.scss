@@ -1,0 +1,86 @@
+.searchBarContainer {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  width: 50%;
+  border-radius: 40px;
+  box-shadow: 0 0 7px lightgrey;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    label {
+      font-size: 12px;
+      font-weight: 500;
+    }
+    input {
+      outline: none;
+      border: none;
+      width: 100%;
+      background-color: transparent;
+    }
+    &:hover {
+      background-color: lightgrey;
+    }
+    &:nth-child(3), &:nth-child(5) {
+      flex: 1;
+    }
+    &:nth-child(1) {
+      flex: 2;
+    }
+  }
+  .lastInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    flex: 2;
+    border-radius: 50px;
+    padding-right: 15px;
+    &:hover{
+        background-color: lightgrey;
+    }
+    input{
+        width: max-content;
+    }
+    button {
+      height: 45px;
+      border-radius: 40px;
+      border: none;
+      background-color: #fc375c;
+      color: #fff;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      cursor: pointer;
+      i {
+        font-size: 16px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+  .verticalBar {
+    width: 1px;
+    height: 25px;
+    background: lightgrey;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .searchBarContainer{
+    width: 95%;
+  }
+}

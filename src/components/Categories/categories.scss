@@ -1,0 +1,18 @@
+.categoriesContainer{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 20px auto 0;
+    width: 90%;
+    // overflow: scroll;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+
+@media screen and (max-width: 768px) {
+  .categoriesContainer{
+    justify-content: start;
+  }
+}

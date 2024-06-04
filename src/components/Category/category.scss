@@ -1,0 +1,26 @@
+.categoryContainer {
+  text-align: center;
+  cursor: pointer;
+  color: grey;
+  position: relative;
+  margin-bottom: 20px;
+  &:hover {
+    color: #000;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: lightgrey;
+      bottom: -10px;
+      left: 0;
+    }
+  }
+  img {
+    width: 23px;
+  }
+  p {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+}
