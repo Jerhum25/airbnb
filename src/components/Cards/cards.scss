@@ -6,3 +6,9 @@
     width: 90%;
     margin: 25px auto;
 }
+
+@media screen and (max-width: 768px){
+    .cardsContainer{
+        width: 95%;
+    }
+}
