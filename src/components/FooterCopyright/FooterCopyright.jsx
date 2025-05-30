@@ -14,7 +14,7 @@ function FooterCopyright(props) {
         <a href="a">Infos sur l'entreprise</a>
       </div>
       <a href="a" className="country">
-        <i className="fa-solid fa-globe"></i>
+        <i className="fas fa-globe"></i>
         <p>Français(FR)</p>
       </a>
       <a href="a" className="money">
@@ -22,13 +22,13 @@ function FooterCopyright(props) {
       </a>
       <div className="socialNetworks">
         <a href={"https://www.facebook.com/AirbnbFrance"} target="_blank">
-          <i className="fa-brands fa-square-facebook"></i>
-        </a>
-        <a href="https://www.instagram.com/airbnb/" target="_blank">
-          <i className="fa-brands fa-square-twitter"></i>
+          <i className="fab fa-facebook-square"></i>
         </a>
         <a href="https://x.com/airbnb_fr" target="_blank">
-          <i className="fa-brands fa-square-instagram"></i>
+          <i className="fab fa-twitter-square"></i>
+        </a>
+        <a href="https://www.instagram.com/airbnb/" target="_blank">
+          <i className="fab fa-instagram-square"></i>
         </a>
       </div>
     </div>

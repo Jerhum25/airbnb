@@ -10,7 +10,7 @@ function Nav(props) {
   return (
     <div className="navContainer">
       <div className="logo">
-        <i className="fa-brands fa-airbnb"></i>
+        <i className="fab fa-airbnb"></i>
         <h1>airbnb</h1>
       </div>
       <div className="navCenter">
@@ -21,11 +21,11 @@ function Nav(props) {
       <div className="navRight">
         <a href="a">Mettre mon logement sur Airbnb</a>
         <a href="a">
-          <i className="fa-solid fa-globe"></i>
+          <i className="fas fa-globe"></i>
         </a>
         <div href="a" className="user" onClick={modal}>
-          <i className="fa-solid fa-bars"></i>
-          <i className="fa-solid fa-circle-user"></i>
+          <i className="fas fa-bars"></i>
+          <i className="fas fa-user-circle"></i>
         </div>
         <div className="userModal">
           <a href="a">Inscription</a>

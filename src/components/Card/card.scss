@@ -17,7 +17,7 @@
     p {
       font-size: 14px;
       font-weight: 300;
-      &:last-child{
+      &:last-child {
         font-weight: 400;
       }
       span {
@@ -29,42 +29,41 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    // transition: .2s ease-in-out;
-    i{
-        font-size: 23px;
-        color: #fff;
-      }
-      &:hover{
-        // transform: scale(1.1);
-        animation: heart ease-in 1.2s infinite;
+    i {
+      transition: all 0.3s ease;
+      font-size: 23px;
+      color: #fff;
+    }
+    .colorToggle {
+      color: #fc375c;
+      animation: heart ease-in 1.2s infinite;
     }
   }
+
   @keyframes heart {
-    0%{
+    0% {
       scale: 1;
     }
-    25%{
+    25% {
       scale: 1.05;
     }
-    50%{
+    50% {
       scale: 1.1;
     }
-    60%{
+    60% {
       scale: 1.05;
     }
-    80%{
+    80% {
       scale: 1.1;
     }
-    100%{
+    100% {
       scale: 1;
     }
-    
   }
 }
 
-
-@media screen and (max-width:768px){
-  .cardContainer{
+@media screen and (max-width: 768px) {
+  .cardContainer {
     width: 100%;
   }
 }

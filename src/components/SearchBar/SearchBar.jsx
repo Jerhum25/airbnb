@@ -11,12 +11,12 @@ function SearchBar(props) {
       <div className="verticalBar"></div>
       <div className="info">
         <label htmlFor="arrival">Arrivée</label>
-        <input type="text" placeholder="Quand ?" id="arrival" />
+        <input type="text" placeholder="jj/mm/aaaa" id="arrival" />
       </div>
       <div className="verticalBar"></div>
       <div className="info">
         <label htmlFor="departure">Départ</label>
-        <input type="text" placeholder="Quand ?" id="departure" />
+        <input type="text" placeholder="jj/mm/aaaa" id="departure" />
       </div>
       <div className="verticalBar"></div>
       <div className="lastInfo">
